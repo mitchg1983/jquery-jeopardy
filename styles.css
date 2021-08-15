@@ -1,0 +1,157 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(68, 66, 207);
+    background: linear-gradient(32deg, rgba(68,66,207,1) 0%, rgba(194,245,255,1) 100%);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    
+    height: 50px;
+    margin-top: 15px;
+    background-color: rgb(17, 57, 235);
+    color: goldenrod;
+    font-size: 20px;
+    text-shadow: black 3px 3px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    padding: 14px;
+    border: solid black 4px;
+}
+
+
+.gameboard {
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width: 980px;
+}
+
+
+.bot {
+    
+    height: 120px;
+    width: 900px;
+    background-color: rgb(17, 57, 235);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-shadow: black 2px 2px 2px;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    border-bottom: solid black 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.input-field {
+    height: 80px;
+    width: 900px;
+    background-color: rgb(17, 57, 235);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-shadow: black 2px 2px 2px;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    border-bottom: solid black 4px;
+    border-top: 6px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 150px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gamebox {
+    width: 150px;
+    height: 100px;
+    margin-top: 8px;
+    background-color: rgb(17, 57, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
+    font-size: 20px;
+    text-shadow: black 3px 3px 3px;
+    
+}
+
+.cat-name {
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+.ques {
+    font-size: 40px;
+}
+
+.five {
+    margin-bottom: 8px;
+}
+.output-box {
+    padding: 15px;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 74vw;
+}
+
+.left-panel {
+    height: 150px;
+    width: 80px;
+    border: red solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-panel {
+    height: 150px;
+    width: 80px;
+    border: red solid 1px;
+}
+
+.hide-me {
+visibility: hidden;
+}
+
+p {
+    margin: 15px;
+    color: goldenrod;
+}
+
+.guess {
+    height: 30px;
+    width: 70px;
+    margin: 15px;
+    background: lightgray;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.user-input {
+    background: lightgray;
+}
